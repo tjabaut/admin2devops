@@ -20,3 +20,13 @@ You don't need to be Facebook, Google, or Netflix to benefit from the culture an
 3. Core
 4. Lessons Learned
 5. Key Takeaways
+
+Have you ever had to install a complex application with many procedural steps? What if you had to do it to 10 servers, or maybe a 100. With DevOps it doesn't matter. You define the process, write the script, then choose the host or host(s) to execute againt. Of course if you only have to perform something once it might not be a great candidate for automation.
+
+In the following, I needed to be able to install Linux, Nginx, MySQL, PHP, and Wordpress. This install was for DEV environments, and as such needed to be able to be rebuilt over and over again to reset the base configuration.
+
+<show manual series of events>
+
+I started thinking to myself, I do not want to have to rebuild everytime I need to test a new module of an iterative change. So I wanted to automate the process. That's where tools like Chef, Puppet, SaltStack, Ansible and others come in.
+
+<show Ansible playbook>
