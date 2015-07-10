@@ -26,3 +26,11 @@ In the following, I needed to be able to install Linux, Nginx, MySQL, PHP, and W
 I started thinking to myself, I do not want to have to rebuild everytime I need to test a new module of an iterative change. So I wanted to automate the process. That's where tools like Chef, Puppet, SaltStack, Ansible and others come in.
 
 <show Ansible playbook>
+	
+###Lessons Learned
+1. Scripts are stupid (not bad, just stupid)
+4. Start small, remove manual tasks
+2. Take the time to re-write using native modules
+3. It's not going to happen overnight
+5. If you're a Ops, make friends with Devs and learn their methodologies
+6. If you're a Dev, make friends with Ops and learn their methodologies
