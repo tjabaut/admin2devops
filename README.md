@@ -4,15 +4,11 @@
 ##Time 20 minutes
 ##Presenters: Jonathan Frappier & Tim Jabaut
 
-###Possible Title1:
+###Title:
 Stop being an "Admin" and learn to embrace "DevOps"
 
-###Possible Title2:
-Practical DevOps - Real world stories about small and medium size businesses embracing the DevOps culture to build more agile technology teams
-
 ###Abstract:
-You don't need to be Facebook, Google, or Netflix to benefit from the culture and methodologies embraced by DevOps. There are less than 1000 companies* in the US with more than 10,000 employees... and roughly 6 million with 500 or less*. Chances are you don't need to solve the same problems at scale that Google or Netflix does. In this session you will hear about how small and medium sized business achieved business goals through the use of DevOps methodologies, including some unexpected benefits. (*US Census 2008)
-
+You don't need to be Facebook, Google, or Netflix to benefit from the culture and methodologies embraced by DevOps. There are less than 1000 companies* in the US with more than 10,000 employees... and roughly 6 million with 500 or less*. Chances are you don't need to solve the same problems at scale that Google or Netflix does. (*US Census 2008)
 
 ###Time Table Breakdown
 1. Introduction
@@ -30,3 +26,11 @@ In the following, I needed to be able to install Linux, Nginx, MySQL, PHP, and W
 I started thinking to myself, I do not want to have to rebuild everytime I need to test a new module of an iterative change. So I wanted to automate the process. That's where tools like Chef, Puppet, SaltStack, Ansible and others come in.
 
 <show Ansible playbook>
+	
+###Lessons Learned
+1. Scripts are stupid (not bad, just stupid)
+4. Start small, remove manual tasks
+2. Take the time to re-write using native modules
+3. It's not going to happen overnight
+5. If you're a Ops, make friends with Devs and learn their methodologies
+6. If you're a Dev, make friends with Ops and learn their methodologies
