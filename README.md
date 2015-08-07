@@ -26,7 +26,8 @@ Let's define DevOps so we are thinking about this from the same perspective. Bri
 
 I think that really sums up nicely what technology groups should be trying to do. In fact, from that respect DevOps isn't really all that new of a concept. We have been talking about IT transformation and IT-as-a-Service since someone coined the Everything-a-a-Service acronym...
 
-And all this is true, because it rhymes!
+And all this is true, because it rhymes!  
+
 ![Lego Movie Rhymes](/images/rhymes.jpg)
 
 ###Topic Overview
