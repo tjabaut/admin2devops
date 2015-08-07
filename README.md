@@ -20,11 +20,14 @@ You don't need to be Facebook, Google, or Netflix to benefit from the culture an
 ###Introduction
 What is DevOps? Like many things in the technology space, there are quite a few definitions, which doesn't help us understand what we are trying to do. For a lot of folks, it's also easy to look at the surface and say well we don't have a development team, so I can't DevOps. 
 
-Let's define DevOps so we are thinking about this from the same perspective. Brian Gracey from EMC Code uses a definition I like: 
+Let's define DevOps so we are thinking about this from the same perspective. Brian Gracey formerly of EMC Code, and now an Analyst with Wikibon uses a definition I like: 
 
 "DevOps is a CULTURAL and OPERATIONAL model that fosters COLLABORATION to ENABLE high-performance IT to ACHIEVE business goals." 
 
-I think that really sums up nicely what technology groups should be trying to do. In fact, from that respect DevOps isn't really all that new of a concept. We have been talking about IT transformation and IT-as-a-Service since someone coined the Everything-a-a-Service acronym.
+I think that really sums up nicely what technology groups should be trying to do. In fact, from that respect DevOps isn't really all that new of a concept. We have been talking about IT transformation and IT-as-a-Service since someone coined the Everything-a-a-Service acronym...
+
+And all this is true, because it rhymes!
+![Lego Movie Rhymes](/images/rhymes.jpg)
 
 ###Topic Overview
 - Collaboration
