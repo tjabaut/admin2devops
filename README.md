@@ -40,18 +40,20 @@ And all this is true, because it rhymes!
 ###Core
 
 ####Collaboration
-DevOps is as much about collaboration as it is technology, further its not enough to just create "DevOps" team and start automating away. If you are not working with teams across the organization, you could be just "shifting silos" as Mike Kavis talks about in DevOps and Bottlenecks (via virtualizationpractice.com). In his article Mike talks about how you end up shifting bottlenecks (a popular theme in the Phoenix Projet) without actually improving output. You might improve the output of one team, maybe the server group but do hundreds or thousands of lines of Puppet/Chef/Ansible code improve the output of the QA team?
+DevOps is as much about collaboration as it is about technology. Additionally it is not enough to just create a "DevOps" team and start automating away. If you are not working with teams across the organization, you could be just "shifting silos" as Mike Kavis talks about in [DevOps and Bottlenecks](https://virtualizationpractice.com). In his article Mike talks about how you end up shifting bottlenecks (a popular theme in the Phoenix Projet) without actually improving output. You might improve the output of one team, maybe the server group but do hundreds or thousands of lines of Puppet/Chef/Ansible code improve the output of the QA team?
 
 Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
 
-####Automtion
-Have you ever had to install a complex application with many procedural steps? What if you had to do it to 10 servers, or maybe a 100. With DevOps it doesn't matter. You define the process, write the script, then choose the host or host(s) to execute againt. Of course if you only have to perform something once it might not be a great candidate for automation.
+####Automation
+Have you ever had to install a complex application with many procedural steps? What if you had to do it to 10 servers, or maybe a 100. With DevOps it doesn't matter. You define the process, write the script, then choose the host or host(s) to execute against. Of course if you only have to perform something once it might not be a great candidate for automation.
+
+Let's illustrate to show how this works.
 
 In the following, I needed to be able to install Linux, Nginx, MySQL, PHP, and Wordpress. This install was for DEV environments, and as such needed to be able to be rebuilt over and over again to reset the base configuration.
 
-Here are the steps that I would have to perform manually, everytime I wanted to produce the desired results.
+Here are the steps that I would have to perform manually, every time I wanted to produce the desired results.
 
-##Steps
+####Steps
 1. Install base build of linux (Debian 8 Jessie)
   - Update linux to latest patches
 2. Remove Apache
@@ -67,7 +69,7 @@ Here are the steps that I would have to perform manually, everytime I wanted to 
 6. Install Wordpress
   - configuration steps
 
-I started thinking to myself, I do not want to have to rebuild everytime I need to test a new module of an iterative change. So I wanted to automate the process. That's where tools like Chef, Puppet, SaltStack, Ansible and others come in.
+I started thinking to myself, I do not want to have to rebuild every time I need to test a new module of an iterative change. So I wanted to automate the process. That's where tools like Chef, Puppet, SaltStack, Ansible and others come in.
 
 <show Ansible playbook>
 
