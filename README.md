@@ -40,6 +40,8 @@ And all this is true, because it rhymes!
 ###Core
 
 ####Collaboration
+DevOps is as much about collaboration as it is technology, further its not enough to just create "DevOps" team and start automating away. If you are not working with teams across the organization, you could be just "shifting silos" as Mike Kavis talks about in DevOps and Bottlenecks (via virtualizationpractice.com). In his article Mike talks about how you end up shifting bottlenecks (a popular theme in the Phoenix Projet) without actually improving output. You might improve the output of one team, maybe the server group but do hundreds or thousands of lines of Puppet/Chef/Ansible code improve the output of the QA team?
+
 Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
 
 ####Automtion
