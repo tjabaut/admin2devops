@@ -42,8 +42,6 @@ And all this is true, because it rhymes!
 ####Collaboration
 DevOps is as much about collaboration as it is about technology. Additionally it is not enough to just create a "DevOps" team and start automating away. If you are not working with teams across the organization, you could be just "shifting silos" as Mike Kavis talks about in [DevOps and Bottlenecks](https://virtualizationpractice.com). In his article Mike talks about how you end up shifting bottlenecks (a popular theme in the Phoenix Projet) without actually improving output. You might improve the output of one team, maybe the server group but do hundreds or thousands of lines of Puppet/Chef/Ansible code improve the output of the QA team?
 
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-
 ####Automation
 Have you ever had to install a complex application with many procedural steps? What if you had to do it to 10 servers, or maybe a 100. With DevOps it doesn't matter. You define the process, write the script, then choose the host or host(s) to execute against. Of course if you only have to perform something once it might not be a great candidate for automation.
 
@@ -55,7 +53,10 @@ Here are the steps that I would have to perform manually, every time I wanted to
 
 ####Steps
 1. Install base build of linux (Debian 8 Jessie)
+  - Add in any additional Repositories
   - Update linux to latest patches
+  - Add non-Root user to follow least privilege access.
+
 2. Remove Apache
   - Apt-get remove apache2*
   - (Clean up)Apt-get autoremove
@@ -72,18 +73,24 @@ Here are the steps that I would have to perform manually, every time I wanted to
 I started thinking to myself, I do not want to have to rebuild every time I need to test a new module of an iterative change. So I wanted to automate the process. That's where tools like Chef, Puppet, SaltStack, Ansible and others come in.
 
 <show Ansible playbook>
+By comparison the same end result can be achieved with a simple automated process.
 
 ####Configuration Management
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+Configuration Management seeks to accomplish a simple task, enforcing consistency across builds.
+
+We define our Desired State or our End State Configuration, this "state" becomes the test by which we can programatically work towards.
+
+While this concept is simple in nature, in todays world of reactionary IT, it is easier said than done. To become effective at implementing a configuration management solution, organizations must be willing to embrace DevOps culture. This will require clearly defined People, Process, Technology to accomplish this task.
+
 
 ####Agile
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+Agile methodologies arose due to a shortcoming with defined standard software development lifecycle practices. In the old days (tongue in cheek), pre-Interent days, SDLC used to have regularly scheduled, infrequest releases that sought to add enhancements and bug fixes. Quality and defect control (although not perfect) was built into this model. But then along came the next generation. Those born of the Internet era, where everything happens faster at an ever increasing pace.
 
 ####Additional Operational Benefits
 With such a focus on "Dev" and "Ops" around collaboration, there are a few operational benefits that I have seen get overlooked.
 
-- Disaster Recovery
-- Compliance
+- Disaster Recovery - By automating your environment you are essentially providing a Blue Print by which you get from Bare Metal (or VM, container, etc) to Production Ready with as few steps as possible. You are not tied to just one environment, which gives you the ability
+- Compliance - You are essentially documenting your environment which will appease InfoSec with regards to Audit.
 
 ###Lessons Learned
 1. Scripts are stupid (not bad, just stupid)
